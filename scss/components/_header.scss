@@ -1,0 +1,24 @@
+$primary-font: 'Open Sans', sans-serif !important;
+$secondary-font: 'Quicksand', sans-serif;
+$primary-color: #ed1b2e !important;
+$secondary-color: #f8f8f8 !important;
+
+header{
+    background-color: $secondary-color;
+    display: flex;
+    height: 100px;
+    width:100% !important;
+    justify-content: space-evenly;
+    
+    .logo{
+        width:15%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding-left: 10px;
+        img{
+            width:120px;
+        }
+    }
+    
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- js -->
+    <script src="assets/js/carroussel.js" defer></script>
+    <script src="assets/js/dropdown.js" defer></script>
+    <script src="assets/js/accordion.js" defer></script>
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans:400,700&display=swap" rel="stylesheet">    <title>Specialized</title>
+</head>
+
+<body>
+    <div class="product__container ">
+        <header>
+            <a class="logo">
+                <img src="assets/img/logo.png" alt="Logo Specialized">
+            </a>
+            <div onclick="toggleClass('.product__container', 'expanded')" class="product__title">
+                <h3>Turbo Levo HT 29</h3>
+            </div>
+            <div class="product__bag">
+                <a href="#"><i class="icon-pacote"></i></a>
+            </div>
+        </header>
+        <section class="container preto">
+                <img class="cor1" src="assets/img/bike1.png" alt="hardtail cor1">
+                <img class="cor1" src="assets/img/bike1-1.png" alt="hardtail cor1">
+                <img class="cor1" src="assets/img/bike1-2.png" alt="hardtail cor1">
+                <img class="cor1" src="assets/img/bike1-3.png" alt="hardtail cor1">
+                <img class="cor1" src="assets/img/bike1-4.png" alt="hardtail cor1">
+                <img class="cor1" src="assets/img/bike1-5.png" alt="hardtail cor1">
+                <img class="cor2" src="assets/img/bike2.png" alt="hardtail cor2">
+                <img class="cor2" src="assets/img/bike2-1.png" alt="hardtail cor2">
+                <img class="cor2" src="assets/img/bike2-2.png" alt="hardtail cor2">
+                <img class="cor2" src="assets/img/bike2-3.png" alt="hardtail cor2">
+                <img class="cor2" src="assets/img/bike2-4.png" alt="hardtail cor2">
+                <img class="cor2" src="assets/img/bike2-5.png" alt="hardtail cor2">
+        </section>
+        <!-- <div class="container-2">
+               
+        </div> -->
+        <section class="product__info">
+            <div  class="product__title">
+                <h3 onclick="toggleClass('.product__container', 'expanded')">Tubo Levo HT 29</h3>
+                <h4 onclick="toggleClass('.product__container', 'expanded')" class="product__price">
+                    R$ 23.799,00
+                </h4>
+            </div>
+                <div class="product__colors">
+                    <h3>Cores</h3>
+                    <div class="buttons">
+                        <i class="product__black" onclick="removeClass('.container', 'azul')" > </i>
+                        <i class="product__blue" onclick="addClass('.container', 'azul')" ></i>
+                    </div>
+                </div>
+            </section>
+                <p onclick="toggleClass('.product__container', 'expanded')" class="product__short-description">
+                    Se velocidade está no topo de sua lista de desejos, não existe ferramenta melhor do que a Turbo Levo
+                    Hardtail 29...
+                </p>
+        
+    </div>
+    <div class="product__long-description">
+        <h2>Descrição</h2>
+        <p>
+                Se velocidade está no topo de sua lista de desejos, não existe ferramenta melhor do que a Turbo Levo Hardtail 29. Ela pega a diversão, eficiência e velocidade de nossas hardtails 29” e acrescenta a tecnologia Turbo para aumentar a velocidade em todas as partes da trilha.</p>
+                <p>
+                Primeiramente, ela possui a velocidade e pilotagem ágil pelas quais nossas bikes de trilha são conhecidas - geometria capaz, chainstays curtos para pilotagem ágil e um movimento central baixo que faz parecer que você está plantado na trilha. Então entra a eficiente e poderosa tecnologia Turbo, juntamente com um motor e bateria integrados. No entanto, este ano você verá algumas melhorias no software que aumentaram a eficiência do motor, juntamente com um quadro feito de alumínio M5. O motor exclusivo com Rx Trail Tune leva de forma suave e silenciosa esta potência adicional para os pedais para que até as trilhas mais íngremes sejam feitas praticamente sem esforço. Enquanto isso, a liberação de potência é completamente ajustável para conservar energia. E, por último, nosso novo motor personalizado Turbo 1.2E possui acionamento instantâneo do motor sempre que precisar, e torque consistente durante toda a cadência. Isso possibilita um uso mais eficiente da potência na trilha, e mais importante, cria a sensação de uma bike de trilha muito capaz.
+        </p>
+        <button class="accordion">Quadro</button>
+        <div class="panel">
+            <h2>
+                Quadro
+            </h2>
+            <p>Specialized M5 Aluminum, 29 Trail HT Geometry, integrated down tube battery, enclosed internal cable,
+                Command Post routing, 148mm spacing</p>
+            <h2>
+                Garfo
+            </h2>
+            <p>
+                SR Suntour XCM32, 47mm offset, 15x110mm thru-axle. (S: 100mm travel, M/L/XL: 120mm travel)
+            </p>
+            <h2>
+                ABRAÇADEIRA DO CANOTE
+            </h2>
+            <p>
+                Alloy, bolt-type, 34.9mm
+            </p>
+        </div>
+        <button class="accordion">Acessórios</button>
+        <div class="panel">
+            <h2>
+                Pedais
+            </h2>
+            <p>Specialized Dirt</p>
+        </div>
+        <button class="accordion">Rodas</button>
+        <div class="panel">
+            <h2>
+                Cubo Traseiro
+            </h2>
+            <p>Stout Pro, sealed cartridge bearings, 12x148mm thru-axle, 28h</p>
+            <h2>
+                Pneu Traseiro
+            </h2>
+            <p>Ground Control, GRID casing, GRIPTON® compound, 2Bliss Ready, 29x2.3"</p>
+            <h2>
+                Cubo Dianteiro
+            </h2>
+            <p>
+                Specialized, sealed cartridge bearings, 15x110mm thru-axle, 28h
+            </p>
+            <h2>
+                Pneu Dianteiro
+            </h2>
+            <p>
+                Ground Control, GRID casing, GRIPTON® compound, 2Bliss Ready, 29x2.3"
+            </p>
+            <h2>
+                Aros
+            </h2>
+            <p>
+                Specialized Alloy 29", 25mm internal width, disc-specific
+            </p>
+        </div>
+        <button class="accordion">Freios</button>
+        <div class="panel">
+            <h2>
+                Freio D/T
+            </h2>
+            <p>Shimano BR-MT200, hydraulic disc, 180mm</p>
+        </div>
+        <button class="accordion">Cockpit</button>
+        <div class="panel">
+            <h2>
+                Canote do Selim
+            </h2>
+            <p>Specialized 2-bolt head, forged alloy, 8mm offset, micro-adjust, 30.9mm</p>
+            <h2>
+                Selim
+            </h2>
+            <p>
+                Henge Sport, steel rails, 143mm
+            </p>
+            Mesa
+            <p>
+                Specialized, 3D-forged alloy, 4-bolt, 6-degree rise, 31.8mm clamp
+            </p>
+            <h2>
+                Manopolas
+            </h2>
+            <p>
+                Specialized Body Geometry XC, clamp-on
+            </p>
+            <h2>
+                Guidão
+            </h2>
+            <p>
+                    Specialized Trail, 6061 alloy, 8-degree backsweep, 6-degree upsweep, 27mm rise, 780mm, 31.8mm clamp
+            </p>
+        </div>
+        <button class="accordion">Relação</button>
+        <div class="panel">
+            <h2>
+                Câmbio Traseiro
+            </h2>
+            <p>Shimano Acera, SGS cage, 8-speed</p>
+            <h2>
+                Trocadores
+            </h2>
+            <p>
+                    Shimano Acera, 8-speed
+            </p>
+            <h2>
+                Corrente
+            </h2>
+            <p>
+                KMC X8 w/ Missing Link™, 8-speed
+            </p>
+            <h2>
+                Cassete
+            </h2>
+            <p>
+                Shimano HG41, 8-speed, 11-34t
+            </p>
+            <h2>
+                Pedivela
+            </h2>
+            <p>
+                2D cold-forged alloy, custom offset, 165mm
+            </p>
+        </div>
+        <button class="accordion">E-Bike</button>
+        <div class="panel">
+            <h2>
+                Motor
+            </h2>
+            <p>Specialized 1.2E, custom Rx Trail-tuned motor, 250W nominal</p>
+            <h2>
+                Carregador
+            </h2>
+            <p>
+                Custom Specialized 42V2A Charger w/ Rosenberger plug, AC power cord included
+            </p>
+            <h2>Bateria</h2>
+            <p>
+                Specialized M1-400, integrated Trail Display, ANT+/Bluetooth® module, 400Wh
+            </p>
+            <h2>
+                Cabeamento
+            </h2>
+            <p>
+                    Custom Specialized wiring harness
+            </p>
+        </div>
+        <div class="product__rating">
+            <h2>Nota :</h2>
+            <div>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star last"></i>
+                <p>4/5</p>
+            </div>
+        </div>
+        <div class="product__finish">
+           <a href="#"><i class="icon-chat"></i>Chat</a>
+           <a href="#"><i class="icon-pacote"></i>Comprar</a>
+        </div>
+    </div>
+</body>
+
+
+</html>
