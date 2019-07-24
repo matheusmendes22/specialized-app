@@ -12,3 +12,5 @@ for (a = 0; a < acc.length; a++) {
     } 
   });
 }
+
+console.log
