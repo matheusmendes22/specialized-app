@@ -18,11 +18,11 @@
 
 <body>
     <div class="product__container ">
-        <header>
+        <header id="header">
             <a class="logo">
                 <img src="assets/img/logo.png" alt="Logo Specialized">
             </a>
-            <div onclick="toggleClass('.product__container', 'expanded')" class="product__title">
+            <div onclick="toggleClass('.product__container', 'expanded')" class="product__title-header">
                 <h3>Turbo Levo HT 29</h3>
             </div>
             <div class="product__bag">
@@ -149,7 +149,9 @@
             <p>
                 Henge Sport, steel rails, 143mm
             </p>
-            Mesa
+            <h2>
+                Mesa
+            </h2>
             <p>
                 Specialized, 3D-forged alloy, 4-bolt, 6-degree rise, 31.8mm clamp
             </p>
@@ -231,11 +233,15 @@
                 <p>4/5</p>
             </div>
         </div>
+        <a onclick="removeClass('.product__container', 'expanded')" href="#header" class="back-top">
+            <i class="icon-top"></i>
+        </a>
         <div class="product__finish">
            <a href="#"><i class="icon-chat"></i>Chat</a>
            <a href="#"><i class="icon-pacote"></i>Comprar</a>
         </div>
     </div>
+ 
 </body>
 
 

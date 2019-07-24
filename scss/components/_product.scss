@@ -7,7 +7,14 @@ body {
 
     width: 100% !important;
 }
-
+@media(min-width:720px){
+    .container,.product__container{
+        height: unset !important;
+    }
+    .logo{
+        width:8% !important;
+    }
+}
 .container {
     --n: 6;
     display: flex;
@@ -50,7 +57,7 @@ body {
 
     h4 {
         font-family: $primary-font;
-        color: rgb(23, 128, 66);
+        color: #636363;
         font-size: 21px;
     }
 
@@ -62,9 +69,12 @@ body {
     margin: 10px 0;
     color: #636363;
     padding: 0 25px;
+    
 
 }
-
+*{
+    letter-spacing: 1.5px;
+}
 .expanded {
     transition: 0.2s ease-in;
     border-bottom-right-radius: 20px;
@@ -90,7 +100,7 @@ body {
     background-color: #2b2b2b;
     padding-top: 50px;
     padding-bottom: 100px;
-
+    letter-spacing: 1.5px;
     h2 {
         font-family: $primary-font;
         color: #fff;
@@ -105,10 +115,13 @@ body {
         font-size: 14px;
         padding: 10px 35px;
         color: #fff;
+       
+            margin-bottom: 10px;
+        
     }
 
     .accordion {
-        background-color: #a0a0a0;
+        background-color: #131313;
         font-family: $primary-font;
         font-size: 14px;
         padding: 10px 35px;
@@ -130,19 +143,19 @@ body {
 
 .panel {
     padding: 0 18px;
-    background-color: #7c7c7c;
+    background-color: #242424;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 
     h2 {
-        display: inline;
-        width: 20%;
+        display: flex;
+        width: 100%;
     }
 
     p {
-        display: inline-block;
-        margin-left: 100px;
+        display: flex;
+        
     }
 }
 
@@ -190,9 +203,12 @@ body {
 .product__info {
     display: flex;
 }
+.product__price{
 
+}
 .product__bag {
     a {
+        color: $primary-color;
         text-decoration: none;
     }
 }
@@ -202,6 +218,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
+
+    h3 {
+        font-family: $primary-font;
+        font-size: 21px;
+
+    }
+}
+.product__title-header {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 
     h3 {

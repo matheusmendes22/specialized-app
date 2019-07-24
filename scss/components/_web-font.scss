@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-top:before {
+    content: "\e903";
+  }
   .icon-chat:before {
     content: "\e900";
   }
